@@ -1,0 +1,164 @@
+/*Start of Global */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+
+h1, h2, h3, h4{
+    color: #fff;
+    text-align: center;
+}
+
+/* End Of Global */
+
+
+
+/* Start Of Header */
+
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./1.png);
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 75px;
+}
+
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+    border: 1px solid #8400FF transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+.logo img{
+    float: left;
+    width: 250px;;
+    height: auto;
+    margin-top: 50px;
+}
+
+/* End Of Header */
+
+/* Start of footer */
+footer{
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 75px;
+}
+
+ol{
+    list-style-type: none;
+    float: left;
+    margin-top: 75px;
+    margin-left: 450px;
+}
+
+ol li {
+    display: inline-block
+}
+
+ol li{
+    display: inline-block;
+}
+
+ol li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+    border: 1px solid #8400FF transparent;
+    transition: 0.5s ease;
+}
+
+ol li a:hover{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+ol li.active a{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+#cp{
+    background-color: #000;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* End of footer */
+
+/* Start Of Content */
+
+.content{
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.content h1{
+    font-size: 20px;
+    padding-top: 175px;
+    padding-left: 150px;
+    padding-right: 700px;
+}
+
+.content1{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+
+}
+
+.back-video{
+    position: absolute;
+    size: cover;
+    width: 100%;
+    background-image: linear-gradient(to right, #141414, #2F2F2F);
+}
+
+.images{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+
+h1, h2, h3, h4{
+    color: #fff;
+    text-align: center;
+}
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+#cp{
+    background-color: #000;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 75px;
+}
+
+ol{
+    list-style-type: none;
+    float: left;
+    margin-top: 75px;
+    margin-left: 450px;
+}
+
+ol li {
+    display: inline-block
+}
+
+ol li{
+    display: inline-block;
+}
+
+ol li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+    border: 1px solid #8400FF transparent;
+    transition: 0.5s ease;
+}
+
+ol li a:hover{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+ol li.active a{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+    border: 1px solid #8400FF transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+.logo img{
+    float: left;
+    width: 250px;;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    font-size: 150px;
+}
+
+.title h2{
+    font-size: 30px;
+}
+
+/* End of Global, Header and Footer */
+
+.channels{
+    background-size: cover;
+    background-color: #000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#icon{
+    width: 250px;
+}
+
+#icon:hover{
+    border: 1px solid #8400FF;
+    width: 249px;
+}
+
+table tr td{
+    padding: 25px 25px;
+}
+
+
+
+.last{
+    background-size: cover;
+    background-color: #242424;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

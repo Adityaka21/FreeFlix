@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+
+h1, h2, h3, h4{
+    color: #fff;
+    text-align: center;
+}
+
+.div1{
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div4{
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+}
+
+
+.div3{
+    background-color: #242424;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.div2{
+    background-image: url(./back1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#divh1{
+    font-size: 60px;
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+#dch1{
+    font-size: 72px;
+    padding-top: 300px;
+    text-align: center;
+
+}
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 75px;
+}
+
+ol{
+    list-style-type: none;
+    float: left;
+    margin-top: 75px;
+    margin-left: 450px;
+}
+
+ol li {
+    display: inline-block
+}
+
+ol li{
+    display: inline-block;
+}
+
+ol li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+    border: 1px solid #8400FF transparent;
+    transition: 0.5s ease;
+}
+
+ol li a:hover{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+ol li.active a{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+    border: 1px solid #8400FF transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+.logo img{
+    float: left;
+    width: 250px;;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 58%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    border: 1px solid #8400FF;
+    background: transparent;
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+    transition: 0.5sec;
+}
+
+button:hover{
+    background-color: #8400FF;
+    color: #fff;
+}
+
+#first{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#second{
+    margin-left: 20px;
+}
+
+#bs{
+    margin-left: 240px;
+}
+
+
+table{
+    background-color: #000;
+    color: #fff;
+}
+
+#mname{
+    text-align: left;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+#cp{
+    background-color: #000;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#left{
+    float: left;
+    margin-top: 80px;
+    padding-left: 10px;
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+}
+
+#right{
+    float: right;
+    margin-top: 80px;
+    padding-left: 10px;
+    position: absolute;
+    top: 48%;
+    left: 55%;
+    transform: translate(-40%,-50%);
+
+}
+
+#right p{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 50px;
+    text-align: left;
+}
+
+#right table{
+    background-color: transparent;
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+#right table th{
+    padding-left: 10px;
+    text-align: left;
+}
+
+#right table td{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#mdetails{
+    color: #8400FF;
+}
+
+
+#headerPopup{
+    width:75%;
+    margin:0 auto;
+}
+
+#headerPopup iframe{
+    width:100%;
+    margin:0 auto;
+}
